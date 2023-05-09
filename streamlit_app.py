@@ -2,7 +2,7 @@ import streamlit
 import pandas
 import requests
 
-fruit_choice=streamlit.text_input('what fruit would you like to know?", 'kiwi')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered', fruit_choice)
                          
 
